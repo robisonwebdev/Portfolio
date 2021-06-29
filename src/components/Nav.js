@@ -6,9 +6,9 @@ const Nav = () => {
         <nav id='nav'>
             <Link className='siteNavTitle' to='/'><h3>David Robison</h3></Link>
             <ul id='navLinks'>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
+                <Link className='navLink' to='/'><li>Projects</li></Link>
+                <Link className='navLink' to='/about'><li>About</li></Link>
+                <Link className='navLink' to='/contact'><li>Contact</li></Link>
             </ul>
         </nav>
     );
