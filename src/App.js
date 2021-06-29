@@ -7,6 +7,11 @@ const App = () => {
     <Router>
       <div id='App'>
         <Nav />
+        <Switch>
+          <Route exact path='/'></Route>
+          <Route exact path='/about'></Route>
+          <Route exact path='/contact'></Route>
+        </Switch>
       </div>
     </Router>
   );
