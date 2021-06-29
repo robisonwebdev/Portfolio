@@ -1,8 +1,11 @@
 import React from 'react';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>App</div>
+    <Router>
+      <div id='App'></div>
+    </Router>
   );
 }
 
