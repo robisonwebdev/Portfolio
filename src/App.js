@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
