@@ -22,7 +22,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
-        <Footer text='Create by ' name='David Robison' address='https://github.com/robisonwebdev' />
+        <Footer text='Developed by ' name='David Robison' address='https://github.com/robisonwebdev' />
       </div>
     </Router>
   );
