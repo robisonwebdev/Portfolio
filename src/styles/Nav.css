@@ -3,9 +3,14 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 
+    height: 5vh;
     width: 100%;
 }
 
 #navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
     list-style: none;
 }
