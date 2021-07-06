@@ -10,6 +10,11 @@ nav {
     width: 100%;
 }
 
+.siteNavTitle {
+    color: black;
+    text-decoration: none;
+}
+
 #navLinks {
     display: flex;
     flex-direction: row;
