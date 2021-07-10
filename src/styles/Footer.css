@@ -8,3 +8,11 @@ footer {
   height: 150px;
   width: 100%;
 }
+
+.footerCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
