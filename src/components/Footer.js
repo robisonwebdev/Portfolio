@@ -1,5 +1,6 @@
 import React from 'react';
 import FooterCard from './FooterCard';
+import '../styles/Footer.css';
 
 const Footer = () => {
     return (
