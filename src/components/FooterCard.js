@@ -1,8 +1,10 @@
 import React from 'react';
 
-const FooterCard = () => {
+const FooterCard = ({ iconAddess, iconClass }) => {
     return (
-        <div>FooterCard</div>
+        <div className='footerCard'>
+            <a href={iconAddess} target='_blank' rel='noreferrer'><i className={iconClass}></i></a>
+        </div>
     );
 }
 
