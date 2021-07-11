@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/FooterCard.css';
 
 const FooterCard = ({ iconAddess, iconClass }) => {
     return (
