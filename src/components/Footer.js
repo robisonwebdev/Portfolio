@@ -10,7 +10,7 @@ const Footer = () => {
                 <FooterCard iconAddess='https://www.linkedin.com/in/davidrulonrobison/' iconClass='lab la-linkedin' />
             </div>
             <div className='developedBy'>
-                <p>David Robison &#169;2021</p>
+                <p>David Robison <span>&#169;2021</span></p>
             </div>
         </footer>
     );
