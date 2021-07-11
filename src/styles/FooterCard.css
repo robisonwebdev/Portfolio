@@ -1,4 +1,9 @@
 .footerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   height: 50px;
   width: 50px;
 }
