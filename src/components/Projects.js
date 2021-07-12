@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import '../styles/ProjectCard.css';
+
 
 const Projects = () => {
     return (
