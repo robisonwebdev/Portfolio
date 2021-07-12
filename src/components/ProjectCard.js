@@ -2,7 +2,10 @@ import React from 'react';
 
 const ProjectCard = () => {
     return (
-        <div>ProjectCard</div>
+        <div className='projectCard'>
+            <div className='projectCardImage'></div>
+            <div className='projectCardDetails'></div>
+        </div>
     );
 }
 
