@@ -4,7 +4,10 @@ const ProjectCard = () => {
     return (
         <div className='projectCard'>
             <div className='projectCardImage'></div>
-            <div className='projectCardDetails'></div>
+            <div className='projectCardInfo'>
+                <h2></h2>
+                <p></p>
+            </div>
         </div>
     );
 }
