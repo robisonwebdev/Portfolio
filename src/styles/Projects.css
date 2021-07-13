@@ -6,6 +6,9 @@
   flex-wrap: wrap;
   gap: 30px;
 
-  height: 100vh;
+  overflow: auto;
+
+  margin: 50px;
+  height: 100%;
   width: 100vw;
 }
