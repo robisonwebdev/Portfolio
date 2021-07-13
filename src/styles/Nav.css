@@ -8,8 +8,9 @@ nav {
 
   background-color: #2f3645;
   border-bottom: 3px solid #cf0000;
+  position: fixed;
   height: 5vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .siteNavTitle {
