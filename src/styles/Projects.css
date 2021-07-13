@@ -7,8 +7,9 @@
   gap: 30px;
 
   overflow: auto;
-
-  padding-top: 10vh;
+  position: absolute;
+  top: 5vh;
+  padding-top: 30px;
   height: 100%;
   width: 100vw;
 }
