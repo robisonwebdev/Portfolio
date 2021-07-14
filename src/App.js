@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Nav from './components/Nav';
 import Content from './components/Content';
 import './styles/App.css';
@@ -14,6 +14,5 @@ const App = () => {
     </Router>
   );
 }
-
 
 export default App;
