@@ -1,4 +1,5 @@
 import shoppingCart from './pictures/shoppingCart.png';
+import memoryCard from './pictures/memoryCardGame.png';
 
 export const projectInformation = [
     {
@@ -7,5 +8,12 @@ export const projectInformation = [
         'image': shoppingCart,
         'imageAlt': 'Shopping cart app',
         'title': 'Shopping Cart App'
+    },
+    {
+        'address': 'https://robisonwebdev.github.io/memory-card-game/',
+        'details': 'Momory Card Game',
+        'image': memoryCard,
+        'imageAlt': 'Stargate Memory Card Game',
+        'title': 'Stargate Memory Card Game'
     }
 ]
