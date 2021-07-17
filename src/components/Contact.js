@@ -1,8 +1,13 @@
 import React from 'react';
+import Footer from './Footer';
 
 const Contact = () => {
     return (
-        <div className='contact'>Contact</div>
+        <div className='contact'>
+            <h1>Contact Me</h1>
+            <div>Contact information componenet here</div>
+            <Footer text='Developed by ' name='David Robison' address='https://github.com/robisonwebdev' /> 
+        </div>
     );
 }
 
