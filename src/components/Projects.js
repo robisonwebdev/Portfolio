@@ -21,9 +21,6 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div className='allProjects'>
                 {projectMap}
-                {projectMap}
-                {projectMap}
-                {projectMap}
             </div>
             <Footer text='Developed by ' name='David Robison' address='https://github.com/robisonwebdev' />         
         </div>
