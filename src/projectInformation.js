@@ -1,6 +1,7 @@
 import shoppingCart from './pictures/shoppingCart.png';
 import memoryCard from './pictures/memoryCardGame.png';
 import restaurantPage from './pictures/restaurantPage.png';
+import todoApp from './pictures/todoApp.png';
 
 export const projectInformation = [
     {
@@ -23,5 +24,12 @@ export const projectInformation = [
         'image': restaurantPage,
         'imageAlt': 'Image of restaurant mock-up restaurant called Red Bresaola',
         'title': 'Red Bresaola'
+    },
+    {
+        'address': 'https://robisonwebdev.github.io/Todo-List/',
+        'details': 'Todo-List program is to create a simple todo list, using mostly JavaScript',
+        'image': todoApp,
+        'imageAlt': 'Image of todo app',
+        'title': 'Todo App'
     }
 ]
