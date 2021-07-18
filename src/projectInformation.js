@@ -1,5 +1,6 @@
 import shoppingCart from './pictures/shoppingCart.png';
 import memoryCard from './pictures/memoryCardGame.png';
+import restaurantPage from './pictures/restaurantPage.png';
 
 export const projectInformation = [
     {
@@ -15,5 +16,12 @@ export const projectInformation = [
         'image': memoryCard,
         'imageAlt': 'Stargate Memory Card Game',
         'title': 'Stargate Memory Card Game'
+    },
+    {
+        'address': 'https://robisonwebdev.github.io/Restaurant-Page/',
+        'details': 'Restaurant page for a mock-up restaurant called Red Bresaola',
+        'image': restaurantPage,
+        'imageAlt': 'Image of restaurant mock-up restaurant called Red Bresaola',
+        'title': 'Red Bresaola'
     }
 ]
