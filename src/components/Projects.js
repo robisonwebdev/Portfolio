@@ -8,6 +8,7 @@ const Projects = () => {
     const projectMap = projectInformation.map(project => {
         return (
             <ProjectCard
+            key={project.title}
             image={project.image}
             imageAlt={project.imageAlt}
             address={project.address}
