@@ -13,7 +13,7 @@ export const projectInformation = [
     },
     {
         'address': 'https://robisonwebdev.github.io/memory-card-game/',
-        'details': 'Momory Card Game',
+        'details': 'Memory Card Game',
         'image': memoryCard,
         'imageAlt': 'Stargate Memory Card Game',
         'title': 'Stargate Memory Card Game'
