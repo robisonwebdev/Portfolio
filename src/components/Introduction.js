@@ -2,7 +2,10 @@ import React from 'react';
 
 const Introduction = () => {
     return (
-        <div>Intro</div>
+        <div id='introduction'>
+            <div id='introLeft'></div>
+            <div id='introRight'></div>
+        </div>
     );
 }
 
