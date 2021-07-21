@@ -1,9 +1,19 @@
-#introduction {
+#introContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 25px;
 
   min-height: 100%;
+  width: 100%;
+}
+
+#introLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  height: 100%;
 }
