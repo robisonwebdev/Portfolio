@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import myPhoto from '../pictures/myPhoto.jpeg';
+import '../styles/Introduction.css';
 
 const Introduction = () => {
     return (
