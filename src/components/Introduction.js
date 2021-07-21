@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
+import myPhoto from '../pictures/myPhoto.jpeg';
 
 const Introduction = () => {
     return (
@@ -10,7 +11,9 @@ const Introduction = () => {
                 <p>Some text about me here</p>
                 <Link to='/projects'><Button text='My Work' /></Link>
             </div>
-            <div id='introRight'></div>
+            <div id='introRight'>
+                <img src={myPhoto} />
+            </div>
         </div>
     );
 }
