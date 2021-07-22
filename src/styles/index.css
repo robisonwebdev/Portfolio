@@ -6,6 +6,9 @@
 
 :root {
   --dark: #222831;
+  --offWhite: #dddddd;
+  --darkBlue: #30475e;
+  --red: #f05454;
 }
 
 body {
