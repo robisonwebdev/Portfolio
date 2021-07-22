@@ -48,3 +48,8 @@
   font-size: 18px;
   padding: 20px 35px;
 }
+
+.introProjectsBtn:hover {
+  border-color: var(--red);
+  /* color: var(--red); */
+}
