@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 10px;
+  padding: 0 50px;
 
   background-color: var(--dark);
   height: 5vh;
@@ -12,7 +12,7 @@ nav {
 }
 
 .siteNavTitle {
-  color: #fff;
+  color: var(--offWhite);
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ nav {
 }
 
 .navLink {
-  color: #fff;
+  color: var(--offWhite);
   text-decoration: none;
 }
 
