@@ -30,6 +30,10 @@
   height: 85%;
 }
 
+#introLeft h1 {
+  font-size: 50px;
+}
+
 #introImage {
   border-radius: 8%;
   height: auto;
