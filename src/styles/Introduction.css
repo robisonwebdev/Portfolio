@@ -27,3 +27,9 @@
 
   height: 100%;
 }
+
+#introImage {
+  border-radius: 8%;
+  height: auto;
+  max-width: 90%;
+}
