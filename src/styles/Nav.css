@@ -6,7 +6,7 @@ nav {
 
   padding: 0 10px;
 
-  background-color: #2f3645;
+  background-color: var(--dark);
   height: 5vh;
   width: 100vw;
 }
