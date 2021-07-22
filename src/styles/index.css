@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+:root {
+  --dark: #222831;
+}
+
 body {
   height: 100vh;
   width: 100vw;
