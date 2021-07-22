@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
 
   height: 400px;
 }
@@ -35,6 +35,7 @@
 }
 
 #introImage {
+  border: 3px solid var(--offWhite);
   border-radius: 8%;
   height: auto;
   max-width: 90%;
