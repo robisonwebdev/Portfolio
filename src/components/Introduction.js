@@ -14,7 +14,7 @@ const Introduction = () => {
                     <Link to='/projects'><Button text='My Work' /></Link>
                 </div>
                 <div id='introRight'>
-                    <img src={myPhoto} />
+                    <img id='introImage' src={myPhoto} />
                 </div>
             </div>
         </div>
