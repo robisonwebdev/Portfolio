@@ -11,7 +11,7 @@ const Introduction = () => {
                 <div id='introLeft'>
                     <h1>Welcome, I'm David</h1>
                     <p>Some text about me here</p>
-                    <Link to='/projects'><Button text='My Work' /></Link>
+                    <Link to='/projects'><Button text='My Work' className='introProjectsBtn' /></Link>
                 </div>
                 <div id='introRight'>
                     <img id='introImage' src={myPhoto} />
