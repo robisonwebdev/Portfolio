@@ -2,7 +2,10 @@ import React from 'react';
 
 const IntroContact = () => {
     return (
-        <div></div>
+        <div className='introContact'>
+            <div className='leftContact'></div>
+            <div className='rightContact'></div>
+        </div>
     );
 }
 
