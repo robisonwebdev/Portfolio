@@ -5,6 +5,7 @@ nav {
   align-items: center;
 
   background-color: var(--dark);
+  font-size: 20px;
   padding: 25px 50px 0 50px;
   height: 5vh;
   width: 100vw;
