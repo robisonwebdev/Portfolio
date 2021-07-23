@@ -5,7 +5,7 @@ footer {
   justify-content: center;
   gap: 15px;
 
-  background-color: #2f3645;
+  background-color: var(--dark);
   height: 100px;
   width: 100%;
 }
@@ -19,9 +19,9 @@ footer {
 }
 
 .developedBy {
-  color: #fff;
+  color: var(--offWhite);
 }
 
 .developedBy span {
-  color: #e84256;
+  color: var(--red);
 }
