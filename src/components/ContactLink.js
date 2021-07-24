@@ -1,8 +1,8 @@
 import React from 'React';
 
-const ContactLink = () => {
+const ContactLink = ({ iconClass, text }) => {
     return (
-        <div></div>
+        <p className='contactLink'><i className={iconClass} />{text}</p>
     );
 }
 
