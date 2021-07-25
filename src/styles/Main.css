@@ -13,10 +13,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 25px;
 
   height: 350px;
-  width: auto;
+  width: 50%;
 }
 
 .leftContact {
