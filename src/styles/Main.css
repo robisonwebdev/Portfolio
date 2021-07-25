@@ -41,3 +41,12 @@
 .introContactBtn:hover {
   background-color: var(--darkBlue);
 }
+
+.rightContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  height: 50%;
+}
