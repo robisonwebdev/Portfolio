@@ -5,10 +5,6 @@ import '../styles/Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <div className='footerCards'>
-                <FooterCard iconAddess='https://github.com/robisonwebdev' iconClass='lab la-github' />
-                <FooterCard iconAddess='https://www.linkedin.com/in/davidrulonrobison/' iconClass='lab la-linkedin' />
-            </div>
             <div className='developedBy'>
                 <p>David Robison <span>&#169;2021</span></p>
             </div>
