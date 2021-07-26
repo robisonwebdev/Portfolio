@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import Footer from './Footer';
 import { projectInformation } from '../projectInformation';
 import '../styles/Projects.css';
 
@@ -22,8 +21,7 @@ const Projects = () => {
             <h1>My Projects</h1>
             <div className='allProjects'>
                 {projectMap}
-            </div>
-            <Footer text='Developed by ' name='David Robison' address='https://github.com/robisonwebdev' />         
+            </div>       
         </div>
     );
 }
