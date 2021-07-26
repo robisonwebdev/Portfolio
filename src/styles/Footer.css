@@ -19,10 +19,10 @@ footer {
   gap: 10px;
 }
 
-.developedBy {
+footer p {
   color: var(--offWhite);
 }
 
-.developedBy span {
+footer p span {
   color: var(--red);
 }
