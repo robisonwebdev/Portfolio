@@ -1,13 +1,10 @@
 import React from 'react';
-import FooterCard from './FooterCard';
 import '../styles/Footer.css';
 
-const Footer = () => {
+const Footer = ({ name, date }) => {
     return (
         <footer>
-            <div className='developedBy'>
-                <p>David Robison <span>&#169;2021</span></p>
-            </div>
+                <p>{name} <span>&#169;{date}</span></p>
         </footer>
     );
 }
