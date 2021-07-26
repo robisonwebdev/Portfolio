@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ContactLink = ({ iconClass, text }) => {
+const ContactLink = ({ address, iconClass, text }) => {
     return (
-        <p className='contactLink'><i className={iconClass} />{text}</p>
+        <p className='contactLink'><i className={iconClass} /><a href={address} target='_blank' rel='noreferrer'>{text}</a></p>
     );
 }
 
