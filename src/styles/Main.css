@@ -64,3 +64,9 @@
 .contactLink i {
   font-size: 28px;
 }
+
+.contactLink a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
