@@ -12,8 +12,8 @@ const IntroContact = () => {
             </div>
             <div className='rightContact'>
                 <ContactLink iconClass='las la-envelope' text='david@robisonweb.dev' />
-                <ContactLink iconClass='lab la-github' text='Github' />
-                <ContactLink iconClass='lab la-linkedin' text='LinkedIn' />
+                <ContactLink address='https://github.com/robisonwebdev' iconClass='lab la-github' text='Github' />
+                <ContactLink address='https://www.linkedin.com/in/davidrulonrobison/' iconClass='lab la-linkedin' text='LinkedIn' />
             </div>
         </div>
     );
