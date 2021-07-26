@@ -11,7 +11,7 @@ const App = () => {
       <div id='App'>
         <Nav />
         <Content />
-        <Footer text='Developed by ' name='David Robison' address='https://github.com/robisonwebdev' /> 
+        <Footer name='David Robison' date='2021' /> 
       </div>
     </Router>
   );
