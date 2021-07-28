@@ -1,10 +1,11 @@
 import React from 'react';
+import PageIntro from './PageIntro';
 import '../styles/Contact.css'
 
 const Contact = () => {
     return (
         <div className='contact'>
-            <h1>Contact Me</h1>
+            <PageIntro description='Future text for contact me' title='Contact Me' />
             <div>Contact information componenet here</div>
         </div>
     );
