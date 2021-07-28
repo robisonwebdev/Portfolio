@@ -1,4 +1,5 @@
 import React from 'react';
+import PageIntro from '../styles/PageIntro.css';
 
 const PageIntro = ({ description, title }) => {
     return (

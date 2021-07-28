@@ -1,0 +1,13 @@
+.pageIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  background-color: var(--dark);
+  color: var(--offWhite);
+  padding: 150px 0;
+  height: auto;
+  width: 100%;
+}
