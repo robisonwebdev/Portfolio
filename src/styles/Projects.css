@@ -11,6 +11,12 @@
   width: 100%;
 }
 
+#projectsIntro {
+  padding: 150px 0;
+  height: auto;
+  width: 100%;
+}
+
 .allProjects {
   display: flex;
   flex-direction: row;
