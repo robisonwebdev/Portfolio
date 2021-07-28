@@ -20,6 +20,7 @@ const Projects = () => {
         <div className='projects'>
             <div id='projectsIntro'>
                 <h1>My Projects</h1>
+                <p>Some text here</p>
             </div>
             <div className='allProjects'>
                 {projectMap}
