@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import PageIntro from './PageIntro';
 import { projectInformation } from '../projectInformation';
 import '../styles/Projects.css';
 
@@ -18,10 +19,7 @@ const Projects = () => {
     })
     return (
         <div className='projects'>
-            <div id='projectsIntro'>
-                <h1>My Projects</h1>
-                <p>Some text here</p>
-            </div>
+            <PageIntro description='Future text on my current projects' title='My Projects'  />
             <div className='allProjects'>
                 {projectMap}
             </div>       
