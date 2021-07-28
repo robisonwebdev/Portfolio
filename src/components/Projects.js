@@ -18,7 +18,9 @@ const Projects = () => {
     })
     return (
         <div className='projects'>
-            <h1>My Projects</h1>
+            <div id='projectsIntro'>
+                <h1>My Projects</h1>
+            </div>
             <div className='allProjects'>
                 {projectMap}
             </div>       
