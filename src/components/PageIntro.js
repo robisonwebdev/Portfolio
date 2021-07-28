@@ -1,8 +1,11 @@
 import React from 'react';
 
-const PageIntro = () => {
+const PageIntro = ({ description, title }) => {
     return (
-        <div></div>
+        <div className='pageIntro'>
+            <h1>{title}</h1>
+            <p>{description}</p>
+        </div>
     );
 }
 
