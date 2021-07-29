@@ -5,8 +5,9 @@ const Nav = () => {
     return (
         <nav id='nav'>
             <ul id='navLinks'>
-                <li>Projects</li>
+                <li>Home</li>
                 <li>About</li>
+                <li>Projects</li>
                 <li>Contact</li>
             </ul>
         </nav>
