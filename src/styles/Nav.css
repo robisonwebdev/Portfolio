@@ -19,3 +19,14 @@ nav {
 
   list-style: none;
 }
+
+.navLink a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navLink a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
