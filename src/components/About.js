@@ -8,7 +8,7 @@ const About = () => {
             <div id='aboutMe'>
                 <div id='myPicture'></div>
                 <div id='myInfo'>
-                    <p></p>
+                    <div id='myStory'></div>
                     <div id='mySocialLinks'></div>
                 </div>
             </div>
