@@ -2,8 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 75px;
 
   min-height: 100vh;
   width: 100%;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 45px;
+
+  height: auto;
+  width: 75%;
 }
