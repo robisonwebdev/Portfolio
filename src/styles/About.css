@@ -20,3 +20,13 @@
   height: auto;
   width: 75%;
 }
+
+#myInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 25px;
+
+  height: 100%;
+}
