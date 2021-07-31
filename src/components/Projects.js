@@ -17,7 +17,7 @@ const Projects = () => {
         );
     })
     return (
-        <div className='projects'>
+        <div id='projects'>
             <div className='allProjects'>
                 {projectMap}
             </div>       
