@@ -8,7 +8,7 @@ const About = () => {
         <div id='about'>
             <h1>About Me</h1>
             <div id='aboutMe'>
-                <img src={myPhoto} />
+                <img src={myPhoto} alt='David Robison' />
                 <div id='myInfo'>
                     <div id='myStory'>
                         <p>Dolor ut aliquip ex ipsum proident ipsum non ad velit veniam voluptate amet nisi. Excepteur quis amet dolore duis id et et pariatur ex qui pariatur commodo dolore. Excepteur nulla ea reprehenderit nostrud excepteur incididunt est quis sunt excepteur velit nisi veniam.</p>
