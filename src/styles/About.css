@@ -30,3 +30,14 @@
 
   height: 100%;
 }
+
+#myStory {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 15px;
+
+  height: auto;
+  width: auto;
+}
