@@ -16,7 +16,6 @@ const About = () => {
                         <p>Veniam incididunt voluptate eiusmod ullamco laboris aliqua esse cillum et deserunt minim duis. Excepteur non quis commodo amet sint ut. Nostrud deserunt culpa non aliqua tempor deserunt sunt nisi pariatur sunt commodo et. Excepteur fugiat laboris aliqua labore proident dolore nulla eiusmod. Tempor ut velit enim cillum.</p>
                     </div>
                     <div id='mySocialLinks'>
-                        <ContactLink iconClass='las la-envelope' />
                         <ContactLink address='https://github.com/robisonwebdev' iconClass='lab la-github' />
                         <ContactLink address='https://www.linkedin.com/in/davidrulonrobison/' iconClass='lab la-linkedin' />
                     </div>
