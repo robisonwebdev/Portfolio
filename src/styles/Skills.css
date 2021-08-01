@@ -8,3 +8,19 @@
   min-height: 100vh;
   width: 100%;
 }
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skillCard i {
+  font-size: 75px;
+}
+
+.skillCard p {
+  font-size: 20px;
+}
