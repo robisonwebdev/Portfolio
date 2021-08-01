@@ -9,6 +9,15 @@
   width: 100%;
 }
 
+#skillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 35px;
+
+  width: 65%;
+}
+
 .skillCard {
   display: flex;
   flex-direction: column;
