@@ -14,13 +14,17 @@
   border-radius: 8px;
   padding: 6px;
 
-  object-fit: cover;
+  object-fit: fill;
   height: 350px;
   width: 350px;
 }
 
-.projectCardInfo {
-  padding: 0 20px;
-  height: 200px;
-  width: auto;
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+
+  height: auto;
 }
