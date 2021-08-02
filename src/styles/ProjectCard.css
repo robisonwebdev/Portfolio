@@ -28,3 +28,22 @@
 
   height: auto;
 }
+
+.projectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 22px;
+}
+
+.projectLinks a {
+  color: black;
+  text-decoration: none;
+}
+
+.projectLinks a:hover {
+  border-bottom: 3px solid black;
+}
