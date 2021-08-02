@@ -10,7 +10,8 @@ const Projects = () => {
             key={project.title}
             image={project.image}
             imageAlt={project.imageAlt}
-            address={project.address}
+            live={project.live}
+            source={project.source}
             title={project.title}
             details={project.details}
         />
