@@ -1,15 +1,19 @@
 import React from 'react';
+import SkillCard from './SkillCard';
 import '../styles/ProjectCard.css';
 
-const ProjectCard = ({ image, imageAlt, address, title, details }) => {
+const ProjectCard = ({ image, imageAlt, live, source, title, details }) => {
     return (
         <div className='projectCard'>
-            <div className='projectCardImage'>
-                <a href={address} target='_blank' rel='noreferrer'><img src={image} alt={imageAlt} /></a>
-            </div>
-            <div className='projectCardInfo'>
+            <img src={image} alt={imageAlt} />
+            <div className='projectInfo'>
                 <h2>{title}</h2>
                 <p>{details}</p>
+                <div className='projectLinks'>
+                    <p><a href={live}>Live Site</a></p>
+                    <p>|</p>
+                    <p><a href={source}>Github</a></p>
+                </div>
             </div>
         </div>
     );
