@@ -1,9 +1,12 @@
 .projectCard {
-  /* display: flex;
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
 
   height: auto;
-  width: 75vw; */
+  width: 60vw;
 }
 
 .projectCard img {
@@ -12,11 +15,12 @@
   padding: 6px;
 
   object-fit: cover;
-  height: 300px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
 }
 
 .projectCardInfo {
   padding: 0 20px;
   height: 200px;
+  width: auto;
 }
