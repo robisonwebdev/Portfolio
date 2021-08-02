@@ -18,7 +18,10 @@ const Projects = () => {
     })
     return (
         <div id='projects'>
-            {projectMap}      
+            <h1>Projects</h1>
+            <div id='projectList'>
+                {projectMap}    
+            </div>      
         </div>
     );
 }
