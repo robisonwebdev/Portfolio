@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillCard from './SkillCard';
 import '../styles/ProjectCard.css';
 
 const ProjectCard = ({ image, imageAlt, live, source, title, details }) => {
