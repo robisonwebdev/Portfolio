@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 const Footer = ({ name, date }) => {
     return (
         <footer>
-                <p>{name} <span>&#169;{date}</span></p>
+                <p>Developed by {name} <span>&#169;{date}</span></p>
         </footer>
     );
 }
