@@ -5,7 +5,7 @@ import '../styles/Contact.css'
 const Contact = () => {
     return (
         <div id='contact'>
-            <h1>Get in touch</h1>
+            <h1 className='sectionTitle'>Get in touch</h1>
             <div id='contactDetails'>
                 <p>If you have any questions about me, my projects, or just want to chat, please contact me by Email or social links below.</p>
                 <p>Thanks for viewing my portfolio!</p>
