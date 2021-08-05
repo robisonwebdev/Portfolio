@@ -7,9 +7,9 @@ const Contact = () => {
         <div id='contact'>
             <h1>Get in touch</h1>
             <div id='contactDetails'>
-                <p></p>
-                <p>Nullam vitae tempus dui, quis ornare dolor. Nulla iaculis enim at urna egestas, id suscipit est rutrum. Pellentesque consectetur ultricies mauris, sit amet lobortis ante sagittis sed.</p>
-                <p>You can contact me by my email:<br /> DavidRBRobison@gmail.com</p>
+                <p>If you have any questions about me, my projects, or just want to chat, please contact me by Email or social links below.</p>
+                <p>Thanks for viewing my portfolio!</p>
+                <p>Contact me by my email:<br /> DavidRBRobison@gmail.com</p>
             </div>
             <div id='contactLinks'>
                 <ContactLink address='https://github.com/robisonwebdev' iconClass='lab la-github' />
