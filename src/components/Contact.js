@@ -11,7 +11,7 @@ const Contact = () => {
                 <p>Thanks for viewing my portfolio!</p>
                 <p>Contact me by my email:<br /> DavidRBRobison@gmail.com</p>
             </div>
-            <div id='contactLinks'>
+            <div className='mySocialLinks'>
                 <ContactLink address='https://github.com/robisonwebdev' iconClass='lab la-github' />
                 <ContactLink address='https://www.linkedin.com/in/davidrulonrobison/' iconClass='lab la-linkedin' />
             </div>
