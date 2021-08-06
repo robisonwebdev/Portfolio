@@ -54,4 +54,8 @@
     align-items: center;
     justify-content: center;
   }
+
+  .projectInfo {
+    align-items: center;
+  }
 }
