@@ -28,3 +28,9 @@
   font-size: 280px;
   height: 350px;
 }
+
+@media only screen and (max-width: 1000px) {
+  #introRight {
+    display: none;
+  }
+}
