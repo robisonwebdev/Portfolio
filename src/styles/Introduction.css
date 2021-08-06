@@ -30,6 +30,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  #introLeft {
+    align-items: center;
+  }
+
   #introRight {
     display: none;
   }
