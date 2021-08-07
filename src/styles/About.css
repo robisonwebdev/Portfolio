@@ -21,6 +21,14 @@
   width: 75%;
 }
 
+#aboutMe img {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  height: auto;
+  width: auto;
+}
+
 #myInfo {
   display: flex;
   flex-direction: column;
