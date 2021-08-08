@@ -18,6 +18,7 @@
 }
 
 #contactDetails p {
+  color: var(--offWhite);
   font-size: 18px;
   text-align: center;
 }
