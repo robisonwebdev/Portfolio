@@ -5,10 +5,11 @@
 }
 
 :root {
-  --dark: #222831;
-  --offWhite: #dddddd;
-  --darkBlue: #30475e;
-  --red: #f05454;
+  --offWhite: #C5C6C7;
+  --liteBlue: #66FCF1;
+  --grayBlue: #45A29E;
+  --darkBlue: #1F2833;
+  --black: #0B0C10;
 }
 
 html,
