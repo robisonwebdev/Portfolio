@@ -29,6 +29,10 @@
   height: auto;
 }
 
+.projectInfo h2 {
+  color: var(--liteBlue);
+}
+
 .projectLinks {
   display: flex;
   flex-direction: row;
