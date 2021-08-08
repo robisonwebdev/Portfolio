@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: space-between;
 
+  background-color: var(--darkBlue);
   height: auto;
   width: 100%;
 }
 
 .sectionTitle {
-  border-bottom: 5px solid;
+  color: var(--offWhite);
+  border-bottom: 5px solid var(--grayBlue);
   font-size: 2.5rem;
   text-transform: uppercase;
 }
