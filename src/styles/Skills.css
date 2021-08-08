@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 35px;
+  gap: 100px;
 
   height: 100vh;
   width: 100%;
@@ -30,9 +30,11 @@
 }
 
 .skillCard i {
+  color: var(--grayBlue);
   font-size: 75px;
 }
 
 .skillCard p {
+  color: var(--offWhite);
   font-size: 20px;
 }
