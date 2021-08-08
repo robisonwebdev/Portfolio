@@ -26,11 +26,12 @@
   justify-content: space-between;
   gap: 10px;
 
+  color: var(--offWhite);
   height: auto;
 }
 
 .projectInfo h2 {
-  color: var(--liteBlue);
+  color: var(--grayBlue);
 }
 
 .projectLinks {
