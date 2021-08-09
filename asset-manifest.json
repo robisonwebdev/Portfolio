@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.52a40591.chunk.css",
+    "main.js": "/portfolio/static/js/main.a5db4bc8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a5db4bc8.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/js/2.bc3d5af9.chunk.js": "/portfolio/static/js/2.bc3d5af9.chunk.js",
+    "static/js/2.bc3d5af9.chunk.js.map": "/portfolio/static/js/2.bc3d5af9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.52a40591.chunk.css.map": "/portfolio/static/css/main.52a40591.chunk.css.map",
+    "static/js/2.bc3d5af9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bc3d5af9.chunk.js.LICENSE.txt",
+    "static/media/memoryCardGame.1599b504.png": "/portfolio/static/media/memoryCardGame.1599b504.png",
+    "static/media/myPhoto.3897509a.jpeg": "/portfolio/static/media/myPhoto.3897509a.jpeg",
+    "static/media/restaurantPage.ac2c6bf9.png": "/portfolio/static/media/restaurantPage.ac2c6bf9.png",
+    "static/media/shoppingCart.b0dd367b.png": "/portfolio/static/media/shoppingCart.b0dd367b.png",
+    "static/media/todoApp.78f758d3.png": "/portfolio/static/media/todoApp.78f758d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcd5af5a.js",
+    "static/js/2.bc3d5af9.chunk.js",
+    "static/css/main.52a40591.chunk.css",
+    "static/js/main.a5db4bc8.chunk.js"
+  ]
+}
