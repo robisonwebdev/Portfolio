@@ -11,9 +11,12 @@ const About = () => {
                 <img src={myPhoto} alt='David Robison' />
                 <div id='myInfo'>
                     <div id='myStory'>
-                        <p>Dolor ut aliquip ex ipsum proident ipsum non ad velit veniam voluptate amet nisi. Excepteur quis amet dolore duis id et et pariatur ex qui pariatur commodo dolore. Excepteur nulla ea reprehenderit nostrud excepteur incididunt est quis sunt excepteur velit nisi veniam.</p>
-                        <p>Exercitation exercitation exercitation officia magna dolore cupidatat nulla. Mollit sunt irure proident laborum et dolore dolore elit nisi enim commodo enim. Ex officia in id veniam id enim irure tempor do anim occaecat reprehenderit minim. Irure sit esse sunt dolore consectetur ad dolore culpa minim cillum duis qui sint cillum. Laboris ad anim consequat esse aliquip non incididunt officia velit eu aliqua excepteur. Occaecat consequat aliquip do ipsum est cupidatat ullamco nisi esse ad esse veniam. Consectetur nulla aliqua nostrud excepteur cupidatat amet sunt ut irure laborum cupidatat excepteur cupidatat.</p>
-                        <p>Veniam incididunt voluptate eiusmod ullamco laboris aliqua esse cillum et deserunt minim duis. Excepteur non quis commodo amet sint ut. Nostrud deserunt culpa non aliqua tempor deserunt sunt nisi pariatur sunt commodo et. Excepteur fugiat laboris aliqua labore proident dolore nulla eiusmod. Tempor ut velit enim cillum.</p>
+                        <p>Welcome to my website!</p>
+                        <p>My name is David Robison. I’m 35 years old and currently living in Southern Utah. I’m currently working towards becoming a Full Stack Web Developer.</p>
+                        <p>Throughout my life, from High School and into College, I've dabbled with programming. That dabbling with programming was to satisfy my curiosity, but it never fully crossed my mind to turn that curiosity towards a career path.</p>
+                        <p>That finally changed during the past year, when trying to pin down a career I could see myself enjoying. I decided to jump into learning web development from the beginning. I started with the basics (HTML / CSS), moving on to learning a programming language (JavaScript), and currently learning a framework (React).</p>
+                        <p>During this learning process I’ve made it a personal goal to code everyday (be it a few hours or five minutes), to keep myself accountable. As of writing out this “About Me’ section, I’ve coded every day for the past 210 days! Here's to another 210 days to coding/learning/building!</p>
+                        <p>Thank you for taking the time to view my portfolio!</p>
                     </div>
                     <div className='mySocialLinks'>
                         <ContactLink address='https://github.com/robisonwebdev' iconClass='lab la-github' />
