@@ -4,19 +4,9 @@
   padding: 0;
 }
 
-:root {
-  --offWhite: #C5C6C7;
-  --liteBlue: #66FCF1;
-  --grayBlue: #45A29E;
-  --darkBlue: #1F2833;
-  --black: #0B0C10;
-}
-
-html,
 body {
-  font-family: 'Titillium Web', sans-serif;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 #root {
