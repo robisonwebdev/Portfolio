@@ -3,9 +3,9 @@ import '../../styles/Navigation/Navigation.css';
 
 const Navigation = () => {
     return (
-        <section className='navigation'>
+        <nav className='navigation'>
 
-        </section>
+        </nav>
     );
 };
 
