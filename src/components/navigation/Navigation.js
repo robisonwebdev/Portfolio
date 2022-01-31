@@ -1,8 +1,11 @@
 import React from 'react';
+import '../../styles/Navigation/Navigation.css';
 
 const Navigation = () => {
     return (
-        <section></section>
+        <section className='navigation'>
+
+        </section>
     );
 };
 
