@@ -8,7 +8,7 @@ const Navigation = () => {
         <nav className='navigation'>
             <div className='navigation_links'>
                 <Title address='#home' title='David Robison' />
-                <ul className='navlinks'>
+                <ul>
                     <Navlink address='#projects' text='Projects' />
                     <Navlink address='#skills' text='Skills' />
                     <Navlink address='#contact' text='Contact' />
