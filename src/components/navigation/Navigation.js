@@ -6,9 +6,9 @@ import '../../styles/Navigation/Navigation.css';
 const Navigation = () => {
     return (
         <nav className='navigation'>
-            <div className='.navigation_links'>
+            <div className='navigation_links'>
                 <Title address='#home' title='David Robison' />
-                <ul className='.navlinks'>
+                <ul className='navlinks'>
                     <Navlink address='#projects' text='Projects' />
                     <Navlink address='#skills' text='Skills' />
                     <Navlink address='#contact' text='Contact' />
