@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Navlink = () => {
+const Navlink = ({ address, text }) => {
     return (
-        <li></li>
+        <li className='navlink'>
+            <a href={address}>{text}</a>
+        </li>
     );
 };
 
