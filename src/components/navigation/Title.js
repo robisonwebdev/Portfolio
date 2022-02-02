@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Title = () => {
+const Title = ({ title }) => {
     return (
-        <strong></strong>
+        <strong className='navigation_title'>
+            {title}
+        </strong>
     );
 };
 
