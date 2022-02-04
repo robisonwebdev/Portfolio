@@ -3,7 +3,7 @@ import '../../styles/Navigation/MobileMenu.css';
 
 const MobileMenu = () => {
     return (
-        <button>
+        <button className='mobile_menu'>
             <i className='las la-bars' />
         </button>
     );
