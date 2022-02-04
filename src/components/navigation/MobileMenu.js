@@ -1,8 +1,11 @@
 import React from 'react';
+import '../../styles/Navigation/MobileMenu.css';
 
 const MobileMenu = () => {
     return (
-        <button></button>
+        <button>
+            <i className='las la-bars' />
+        </button>
     );
 };
 
