@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Navigation/Navlink.css';
 
 const Navlink = ({ address, text }) => {
     return (
