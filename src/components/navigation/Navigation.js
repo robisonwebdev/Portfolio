@@ -1,4 +1,5 @@
 import React from 'react';
+import MobileMenu from './MobileMenu';
 import Navlink from './Navlink';
 import Title from './Title';
 import '../../styles/Navigation/Navigation.css';
@@ -13,6 +14,7 @@ const Navigation = () => {
                     <Navlink address='#skills' text='Skills' />
                     <Navlink address='#contact' text='Contact' />
                 </ul>
+                <MobileMenu />
             </div>
         </nav>
     );
