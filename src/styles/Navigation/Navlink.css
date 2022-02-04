@@ -1,0 +1,10 @@
+.navlink {
+    padding: 8px 0;
+
+    height: auto;
+    width: 100%;
+}
+
+.navlink a {
+    text-decoration: none;
+}
