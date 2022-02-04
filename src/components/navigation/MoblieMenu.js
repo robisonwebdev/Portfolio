@@ -1,9 +1,9 @@
 import React from 'react';
 
-const MoblieMenu = () => {
+const MobileMenu = () => {
     return (
         <button></button>
     );
 };
 
-export default MoblieMenu;
+export default MobileMenu;
