@@ -18,17 +18,5 @@
 }
 
 .navigation_links {
-    text-align: center;
-    height: auto;
-    width: 100%;
-}
-
-.navigation_links ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    list-style: none;
-    width: 100%;
+    display: none;
 }

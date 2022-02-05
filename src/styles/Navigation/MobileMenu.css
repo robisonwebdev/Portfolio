@@ -1,0 +1,15 @@
+.navigation_mobile_links {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.navigation_mobile_links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+    width: 100%;
+}
