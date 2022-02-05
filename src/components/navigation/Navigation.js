@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
+import DesktopMenu from './DesktopMenu';
 import MobileMenu from './MobileMenu';
-import Navlink from './Navlink';
+import MobileMenuButton from './MobileMenuButton';
 import Title from './Title';
 import '../../styles/Navigation/Navigation.css';
 
 const Navigation = () => {
     const [showLinks, setShowLinks] = useState(false);
 
-    const handleMobileMenu = () => {
+    const handleMobileMenuButton = () => {
         setShowLinks(!showLinks);
     }
 
@@ -15,17 +16,11 @@ const Navigation = () => {
         <nav className='navigation'>
             <div className='navigation_bar'>
                 <Title address='#home' title='David Robison' />
-                <MobileMenu onClick={handleMobileMenu} />
+                <MobileMenuButton onClick={handleMobileMenuButton} />
+                <DesktopMenu />
             </div>            
             <div className='navigation_mobile_links'>
-                {showLinks 
-                    ?   <ul>
-                            <Navlink address='#projects' text='Projects' />
-                            <Navlink address='#skills' text='Skills' />
-                            <Navlink address='#contact' text='Contact' />
-                        </ul>
-                    : null
-                }
+                {showLinks ? <MobileMenu /> : null}
             </div>
         </nav>
     );
