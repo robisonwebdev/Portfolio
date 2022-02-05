@@ -1,8 +1,10 @@
 import React from 'react';
 
-const MobileMenuButton = () => {
+const MobileMenuButton = ({ onClick }) => {
     return (
-        <button></button>
+        <button className='mobile_menu' onClick={onClick}>
+            <i className='las la-bars' />
+        </button>
     );
 };
 
