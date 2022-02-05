@@ -8,7 +8,7 @@ import '../../styles/Navigation/Navigation.css';
 const Navigation = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
-    const breakpoint = 700;
+    const breakpoint = 600;
 
     const handleMobileMenuButton = () => {
         setShowMobileMenu(!showMobileMenu);
