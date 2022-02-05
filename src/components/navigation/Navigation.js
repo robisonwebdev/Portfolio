@@ -19,9 +19,7 @@ const Navigation = () => {
                 <MobileMenuButton onClick={handleMobileMenuButton} />
                 <DesktopMenu />
             </div>            
-            <div className='navigation_mobile_links'>
-                {showLinks ? <MobileMenu /> : null}
-            </div>
+            {showLinks ? <MobileMenu /> : null}
         </nav>
     );
 };
