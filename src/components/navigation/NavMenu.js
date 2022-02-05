@@ -2,7 +2,11 @@ import React from 'react';
 
 const NavMenu = () => {
     return (
-        <ul></ul>
+        <ul className='navigation_links'>
+            <Navlink address='#projects' text='Projects' />
+            <Navlink address='#skills' text='Skills' />
+            <Navlink address='#contact' text='Contact' />
+        </ul>
     );
 };
 
