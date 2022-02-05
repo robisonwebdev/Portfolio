@@ -17,7 +17,7 @@ const Navigation = () => {
                 <Title address='#home' title='David Robison' />
                 <MobileMenu onClick={handleMobileMenu} />
             </div>            
-            <div className='navigation_links'>
+            <div className='navigation_mobile_links'>
                 {showLinks 
                     ?   <ul>
                             <Navlink address='#projects' text='Projects' />
