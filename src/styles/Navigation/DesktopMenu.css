@@ -1,0 +1,7 @@
+.desktop_menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+    list-style: none;
+}
