@@ -6,20 +6,20 @@ import Title from './Title';
 import '../../styles/Navigation/Navigation.css';
 
 const Navigation = () => {
-    const [showLinks, setShowLinks] = useState(false);
+    const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     const handleMobileMenuButton = () => {
-        setShowLinks(!showLinks);
+        setShowMobileMenu(!showMobileMenu);
     }
 
     return (
         <nav className='navigation'>
             <div className='navigation_bar'>
                 <Title address='#home' title='David Robison' />
-                <MobileMenuButton onClick={handleMobileMenuButton} />
                 <DesktopMenu />
+                <MobileMenuButton onClick={handleMobileMenuButton} />
             </div>            
-            {showLinks ? <MobileMenu /> : null}
+            {showMobileMenu ? <MobileMenu /> : null}
         </nav>
     );
 };
