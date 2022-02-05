@@ -12,4 +12,4 @@ const DesktopMenu = () => {
     );
 };
 
-export default NavMenu;
+export default DesktopMenu;
