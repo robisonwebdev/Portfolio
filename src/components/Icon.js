@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Icon.css';
 
 const Icon = ({ address, icon }) => {
     return (
