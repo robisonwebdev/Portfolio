@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Icon = () => {
+const Icon = ({ address, icon }) => {
     return (
-        <i />
+        <a href={address} target='_blank'>
+            <i className={icon} />
+        </a>
     );
 };
 
