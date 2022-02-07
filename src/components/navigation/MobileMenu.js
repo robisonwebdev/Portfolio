@@ -6,8 +6,8 @@ const MobileMenu = () => {
     return (
         <div className='navigation_mobile_links'>
             <ul>
+                <Navlink address='#about' text='About' />
                 <Navlink address='#projects' text='Projects' />
-                <Navlink address='#skills' text='Skills' />
                 <Navlink address='#contact' text='Contact' />
             </ul>
         </div>
