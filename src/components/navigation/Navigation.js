@@ -35,7 +35,7 @@ const Navigation = () => {
             <div className='navigation_bar'>
                 <Title address='#home' title='David Robison' />
                 {width < breakpoint ? null : <DesktopMenu />}
-                {width < breakpoint ? <MobileMenuButton onClick={handleMobileMenuButton} /> : null}
+                {width < breakpoint ? <MobileMenuButton icon={showMobileMenu} onClick={handleMobileMenuButton} /> : null}
             </div>
             {displayMobileMenu() ? <MobileMenu /> : null}
         </nav>
