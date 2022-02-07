@@ -14,6 +14,12 @@ const Navigation = () => {
         setShowMobileMenu(!showMobileMenu);
     };
 
+    const displayMobileMenu = () => {
+        if (showMobileMenu && width < breakpoint) return true;
+
+        return false;
+    };
+
     useEffect(() => {
         const handleWindowResize = () => {
             setWidth(window.innerWidth);
@@ -30,8 +36,8 @@ const Navigation = () => {
                 <Title address='#home' title='David Robison' />
                 {width < breakpoint ? null : <DesktopMenu />}
                 {width < breakpoint ? <MobileMenuButton onClick={handleMobileMenuButton} /> : null}
-            </div>            
-            {showMobileMenu ? <MobileMenu /> : null}
+            </div>
+            {displayMobileMenu() ? <MobileMenu /> : null}
         </nav>
     );
 };
