@@ -1,9 +1,12 @@
 import React from 'react';
+import Welcome from './Welcome';
 import '../../styles/Main/Main.css';
 
 const Main = () => {
     return (
-        <main className='main'></main>
+        <main className='main'>
+            <Welcome />
+        </main>
     );
 };
 
