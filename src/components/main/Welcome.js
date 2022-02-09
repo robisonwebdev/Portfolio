@@ -2,7 +2,9 @@ import React from 'react';
 
 const Welcome = () => {
     return (
-        <section></section>
+        <section className='welcome'>
+            
+        </section>
     );
 };
 
