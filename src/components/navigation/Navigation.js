@@ -14,6 +14,10 @@ const Navigation = () => {
         setShowMobileMenu(!showMobileMenu);
     };
 
+    const handleNavClick = () => {
+        setShowMobileMenu(false);
+    };
+
     const displayMobileMenu = () => {
         if (showMobileMenu && width < breakpoint) return true;
 
@@ -37,7 +41,7 @@ const Navigation = () => {
                 {width < breakpoint ? null : <DesktopMenu />}
                 {width < breakpoint ? <MobileMenuButton icon={showMobileMenu} onClick={handleMobileMenuButton} /> : null}
             </div>
-            {displayMobileMenu() ? <MobileMenu /> : null}
+            {displayMobileMenu() ? <MobileMenu handleNavClick={handleNavClick} /> : null}
         </nav>
     );
 };
