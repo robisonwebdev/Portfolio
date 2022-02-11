@@ -5,8 +5,11 @@ import '../../styles/Main/About.css';
 const About = () => {
     return (
         <section className='about' id='about'>
-            <section className='about_me'></section>
-            <section className='skills'></section>
+            <h1>About</h1>
+            <section className='about_information'>
+                <section className='about_me'></section>
+                <section className='skills'></section>
+            </section>
         </section>
     );
 };
