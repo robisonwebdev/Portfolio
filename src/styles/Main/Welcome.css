@@ -26,12 +26,15 @@
     text-align: center;
 }
 
-.welcome button {
+.welcome a {
+    background-color: whitesmoke;
     border: 3px solid #000;
+    color: #000;
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: normal;
     padding: 10px 8px;
+    text-decoration: none;
 }
 
 .la-chevron-down {
