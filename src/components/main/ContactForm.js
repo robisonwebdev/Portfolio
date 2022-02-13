@@ -6,12 +6,30 @@ const ContactForm = () => {
     const [state, handleSubmit] = useForm("xvolagzn");
 
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return (
+            <>
+                <h3>Thank you for getting in touch!</h3>
+                <p>I'll be in contact with you as soon as possible.</p>
+            </>
+        );
     }
 
     return (
         <section className='contact_form'>
             <form onSubmit={handleSubmit}>
+                <label htmlFor='full-name'>
+                    Full Name
+                </label>
+                <input
+                    id="full-name"
+                    type="text"
+                    name="name"
+                />
+                <ValidationError
+                    prefix="Fullname"
+                    field="full-name"
+                    errors={state.errors}
+                />
                 <label htmlFor="email">
                     Email Address
                 </label>
