@@ -17,41 +17,47 @@ const ContactForm = () => {
     return (
         <section className='contact_form'>
             <form onSubmit={handleSubmit}>
-                <label htmlFor='full-name'>
-                    Full Name
-                </label>
-                <input
-                    id="full-name"
-                    type="text"
-                    name="name"
-                />
-                <ValidationError
-                    prefix="Fullname"
-                    field="full-name"
-                    errors={state.errors}
-                />
-                <label htmlFor="email">
-                    Email Address
-                </label>
-                <input
-                    id="email"
-                    type="email" 
-                    name="email"
-                />
-                <ValidationError 
-                    prefix="Email" 
-                    field="email"
-                    errors={state.errors}
-                />
-                <textarea
-                    id="message"
-                    name="message"
-                />
-                <ValidationError 
-                    prefix="Message" 
-                    field="message"
-                    errors={state.errors}
-                />
+                <div className='form_field'>
+                    <label htmlFor='full-name'>
+                        Full Name
+                    </label>
+                    <input
+                        id="full-name"
+                        type="text"
+                        name="name"
+                    />
+                    <ValidationError
+                        prefix="Fullname"
+                        field="full-name"
+                        errors={state.errors}
+                    />
+                </div>
+                <div className='form_field'>
+                    <label htmlFor="email">
+                        Email Address
+                    </label>
+                    <input
+                        id="email"
+                        type="email" 
+                        name="email"
+                    />
+                    <ValidationError 
+                        prefix="Email" 
+                        field="email"
+                        errors={state.errors}
+                    />
+                </div>
+                <div className='form_field'>
+                    <textarea
+                        id="message"
+                        name="message"
+                    />
+                    <ValidationError 
+                        prefix="Message" 
+                        field="message"
+                        errors={state.errors}
+                    />
+                </div>
                 <button type="submit" disabled={state.submitting}>
                     Submit
                 </button>
