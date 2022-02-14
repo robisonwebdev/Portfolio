@@ -25,3 +25,16 @@
     height: auto;
     width: 75%;
 }
+
+.form_field input {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 20px;
+    height: 40px;
+    width: auto;
+}
+
+.form_field input:focus {
+    outline: none;
+}
