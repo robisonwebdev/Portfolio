@@ -38,3 +38,13 @@
 .form_field input:focus {
     outline: none;
 }
+
+.form_field textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 100px;
+    width: auto;
+    max-width: 100%;
+    min-width: 100%;
+}
