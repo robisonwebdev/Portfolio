@@ -48,3 +48,13 @@
     max-width: 100%;
     min-width: 100%;
 }
+
+.message_sent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
