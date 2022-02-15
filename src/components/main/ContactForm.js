@@ -7,10 +7,10 @@ const ContactForm = () => {
 
     if (state.succeeded) {
         return (
-            <>
+            <div className='message_sent'>
                 <h3>Thank you for getting in touch!</h3>
                 <p>I'll be in contact with you as soon as possible.</p>
-            </>
+            </div>
         );
     }
 
