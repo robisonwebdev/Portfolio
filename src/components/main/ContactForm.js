@@ -18,9 +18,6 @@ const ContactForm = () => {
         <section className='contact_form'>
             <form onSubmit={handleSubmit}>
                 <div className='form_field'>
-                    <label htmlFor='full-name'>
-                        Full Name
-                    </label>
                     <input
                         id="full-name"
                         type="text"
@@ -34,9 +31,6 @@ const ContactForm = () => {
                     />
                 </div>
                 <div className='form_field'>
-                    <label htmlFor="email">
-                        Email Address
-                    </label>
                     <input
                         id="email"
                         type="email" 
