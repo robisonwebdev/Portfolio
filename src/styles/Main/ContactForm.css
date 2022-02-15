@@ -1,10 +1,17 @@
 .contact_form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     
     height: 100%;
     width: 100%;
+}
+
+.form_message {
+    text-align: center;
+    width: 75%;
 }
 
 .contact_form form {
@@ -54,7 +61,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     
+    text-align: center;
     height: 100%;
-    width: 100%;
+    width: 75%;
 }
