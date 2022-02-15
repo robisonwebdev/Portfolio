@@ -25,6 +25,7 @@ const ContactForm = () => {
                         id="full-name"
                         type="text"
                         name="name"
+                        placeholder='Full Name'
                     />
                     <ValidationError
                         prefix="Fullname"
@@ -40,6 +41,7 @@ const ContactForm = () => {
                         id="email"
                         type="email" 
                         name="email"
+                        placeholder='Email Address'
                     />
                     <ValidationError 
                         prefix="Email" 
@@ -51,6 +53,7 @@ const ContactForm = () => {
                     <textarea
                         id="message"
                         name="message"
+                        placeholder='Message...'
                     />
                     <ValidationError 
                         prefix="Message" 
