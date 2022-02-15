@@ -6,9 +6,9 @@ const ContactForm = () => {
     const [state, handleSubmit] = useForm("xvolagzn");
 
     if (state.succeeded) {
-        return (
+          return (
             <div className='message_sent'>
-                <h3>Thank you for getting in touch!</h3>
+                <h2>Thank you for getting in touch!</h2>
                 <p>I'll be in contact with you as soon as possible.</p>
             </div>
         );
@@ -16,6 +16,7 @@ const ContactForm = () => {
 
     return (
         <section className='contact_form'>
+            <p className='form_message'>Have a question or want to work together? Enter your information and I'll get in touch with you as soon as possible.</p>
             <form onSubmit={handleSubmit}>
                 <div className='form_field'>
                     <input
