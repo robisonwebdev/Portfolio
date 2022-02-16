@@ -67,3 +67,11 @@
     height: 100%;
     width: 75%;
 }
+
+.contact_form button {
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: underline;
+}
