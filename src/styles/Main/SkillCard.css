@@ -12,3 +12,8 @@
 .skill_card i {
     font-size: 4.5rem;
 }
+
+.skill_card strong {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
