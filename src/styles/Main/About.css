@@ -13,3 +13,21 @@
     font-size: 2rem;
     padding: 15px 0;
 }
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    width: 100%;
+}
+
+.skill_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    width: 100%;
+}
