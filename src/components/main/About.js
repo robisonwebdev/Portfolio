@@ -8,7 +8,11 @@ const About = () => {
             <h1>About</h1>
             <section className='about_information'>
                 <section className='about_me'></section>
-                <section className='skills'></section>
+                <section className='skills'>
+                    <div className='skills_icons'></div>
+                    <div className='skills_icons'></div>
+                    <div className='skills_icons'></div>
+                </section>
             </section>
         </section>
     );
