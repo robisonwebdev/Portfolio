@@ -5,7 +5,7 @@ const SkillCard = ({ icon, name }) => {
     return (
       <div className='skill_card'>
         <i className={icon} />
-        <h4>{name}</h4>
+        <strong>{name}</strong>
       </div>
     )
 };
