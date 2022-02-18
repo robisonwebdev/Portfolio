@@ -25,6 +25,10 @@
     width: 100%;
 }
 
+.about_me img {
+    width: 65%;
+}
+
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
