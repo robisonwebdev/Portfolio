@@ -14,19 +14,20 @@
     padding: 15px 0;
 }
 
-.skills {
+.about_me {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    justify-content: center;
+    gap: 15px;
 
+    height: auto;
     width: 100%;
 }
 
-.skill_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 25px;
 
     width: 100%;
