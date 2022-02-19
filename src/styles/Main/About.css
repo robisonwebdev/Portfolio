@@ -52,13 +52,14 @@
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
     gap: 25px;
 
-    width: 100%;
+    min-width: auto;
 }
 
 /* Media Querys */
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 799px) {
     .about_me img {
         width: 200px;
     }
@@ -68,9 +69,13 @@
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
     .about_information {
         flex-direction: row;
         width: 85%;
     };
+
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
