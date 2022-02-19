@@ -41,7 +41,7 @@
 }
 
 .about_me img {
-    width: 65%;
+    width: 150px;
 }
 
 .about_me p {
@@ -55,4 +55,11 @@
     gap: 25px;
 
     width: 100%;
+}
+
+/* Media Querys */
+@media only screen and (min-width: 600px) {
+    .about_me img {
+        width: 200px;
+    }
 }
