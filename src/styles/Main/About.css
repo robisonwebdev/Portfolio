@@ -62,4 +62,8 @@
     .about_me img {
         width: 200px;
     }
+
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
