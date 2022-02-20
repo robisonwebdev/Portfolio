@@ -5,12 +5,13 @@
     justify-items: center;
 
     background-color: tomato;
+    padding: 15px 0;
     height: auto;
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
 }
 
 .contact h1 {
     font-size: 2rem;
-    padding: 15px 0;
+    padding-bottom: 15px;
 }
