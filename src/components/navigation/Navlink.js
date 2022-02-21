@@ -3,9 +3,9 @@ import '../../styles/Navigation/Navlink.css';
 
 const Navlink = ({ address, handleNavClick, text }) => {
     return (
-        <li className='navlink' onClick={handleNavClick}>
-            <a href={address}>{text}</a>
-        </li>
+        <a className='navlink' onClick={handleNavClick} href={address}>
+            <li>{text}</li>
+        </a>
     );
 };
 
