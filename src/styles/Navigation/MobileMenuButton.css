@@ -1,6 +1,7 @@
 .mobile_menu_button {
-    background-color: #fff;
+    background-color: #222831;
     border: none;
+    color: #EEEEEE;
     cursor: pointer;
     font-size: 22px;
 }
