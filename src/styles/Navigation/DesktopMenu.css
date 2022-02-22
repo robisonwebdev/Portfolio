@@ -7,5 +7,5 @@
 }
 
 .desktop_menu .navlink {
-    background-color: #222831;
+    background-color: var(--lightBlack);
 }
