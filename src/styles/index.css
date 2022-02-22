@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+:root {
+  --lightBlack: #222831;
+  --lighterBlack: #393E46;
+  --offWhite: #EEE;
+  --teal: #00ADB5;
+}
+
 html {
   scroll-behavior: smooth;
 }
