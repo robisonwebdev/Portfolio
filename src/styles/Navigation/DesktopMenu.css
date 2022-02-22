@@ -3,6 +3,8 @@
     align-items: center;
     gap: 45px;
 
+    font-size: 18px;
+    font-weight: bold;
     list-style: none;
 }
 
