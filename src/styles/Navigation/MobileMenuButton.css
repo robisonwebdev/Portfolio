@@ -5,3 +5,7 @@
     cursor: pointer;
     font-size: 22px;
 }
+
+.mobile_menu_button:hover {
+    color: var(--teal);
+}
