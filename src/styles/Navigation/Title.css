@@ -1,4 +1,4 @@
 .navigation_title a {
-    color: #EEE;
+    color: var(--offWhite);
     text-decoration: none;
 }
