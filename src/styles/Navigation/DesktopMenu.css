@@ -11,3 +11,7 @@
 .desktop_menu .navlink {
     background-color: var(--lightBlack);
 }
+
+.desktop_menu .navlink:hover {
+    color: var(--teal);
+}
