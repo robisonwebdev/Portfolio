@@ -1,6 +1,6 @@
 .navlink {
-    color: #EEE;
-    background-color: #393E46;
+    color: var(--offWhite);
+    background-color: var(--lighterBlack);
     padding: 10px;
     text-decoration: none;
     height: auto;
@@ -8,5 +8,5 @@
 }
 
 .navlink:hover {
-    background-color: #00ADB5;
+    background-color: var(--teal);
 }
