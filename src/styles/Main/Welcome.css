@@ -26,9 +26,9 @@
 }
 
 .welcome a {
-    background-color: whitesmoke;
-    border: 3px solid #000;
-    color: #000;
+    background-color: var(--lighterBlack);
+    border: 3px solid var(--lightBlack);
+    color: var(--offWhite);
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: normal;
@@ -36,6 +36,10 @@
     text-decoration: none;
 }
 
+.welcome a:hover {
+    border-color: var(--teal);
+}
+
 .la-chevron-down {
-    color: #000;
+    color: var(--teal);
 }
