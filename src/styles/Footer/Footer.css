@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 15px;
 
-    color: #222831;
+    color: var(--lightBlack);
     padding: 30px 0;
     height: auto;
     width: 100%;
@@ -22,5 +22,5 @@
 }
 
 .footer .icon {
-    color: #222831;
+    color: var(--lightBlack);
 }
