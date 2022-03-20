@@ -35,5 +35,13 @@ export const projectInformation = [
         'image': todoApp,
         'imageAlt': 'Screenshot of Todo List application.',
         'title': 'Todo List'
+    },
+    {
+        'live': 'https://robisonwebdev.github.io/cv-application/',
+        'source': 'https://github.com/robisonwebdev/cv-application',
+        'details': 'Basic CV application created in React.js, allowing user to create a simple resume.',
+        'image': null,
+        'imageAlt': 'Screenshot of CV application.',
+        'title': 'CV Builder'
     }
 ]
