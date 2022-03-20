@@ -21,12 +21,12 @@ export const projectInformation = [
         'title': 'Stargate Memory Card Game'
     },
     {
-        'live': 'https://robisonwebdev.github.io/Restaurant-Page/',
-        'source': 'https://github.com/robisonwebdev/Restaurant-Page',
-        'details': 'Restaurant page for a mock-up restaurant called Red Bresaola',
-        'image': restaurantPage,
-        'imageAlt': 'Image of restaurant mock-up restaurant called Red Bresaola',
-        'title': 'Red Bresaola'
+        'live': 'https://robisonwebdev.github.io/tic-tac-toe-react/',
+        'source': 'https://github.com/robisonwebdev/tic-tac-toe-react',
+        'details': 'Tic-Tac-Toe game created in React.js. Currently only playable between two users.',
+        'image': null,
+        'imageAlt': 'Screenshot of Tic-Tac-Toe game.',
+        'title': 'Tic-Tac-Toe'
     },
     {
         'live': 'https://robisonwebdev.github.io/todo-react/',
