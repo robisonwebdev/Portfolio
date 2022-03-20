@@ -29,11 +29,11 @@ export const projectInformation = [
         'title': 'Red Bresaola'
     },
     {
-        'live': 'https://robisonwebdev.github.io/Todo-List/',
-        'source': 'https://github.com/robisonwebdev/Todo-List',
-        'details': 'Todo-List program is to create a simple todo list, using mostly JavaScript',
+        'live': 'https://robisonwebdev.github.io/todo-react/',
+        'source': 'https://github.com/robisonwebdev/todo-react',
+        'details': 'Todo List a task management application created in React.js. ',
         'image': todoApp,
-        'imageAlt': 'Image of todo app',
-        'title': 'Todo App'
+        'imageAlt': 'Screenshot of Todo List application.',
+        'title': 'Todo List'
     }
 ]
