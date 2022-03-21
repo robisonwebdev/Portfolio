@@ -1,7 +1,6 @@
 import shoppingCart from './pictures/shoppingCart.png';
 import memoryCard from './pictures/memoryCardGame.png';
-import restaurantPage from './pictures/restaurantPage.png';
-import todoApp from './pictures/todoApp.png';
+import todoList from './pictures/todoList.png';
 
 export const projectInformation = [
     {
@@ -32,7 +31,7 @@ export const projectInformation = [
         'live': 'https://robisonwebdev.github.io/todo-react/',
         'source': 'https://github.com/robisonwebdev/todo-react',
         'details': 'Todo List a task management application created in React.js. ',
-        'image': todoApp,
+        'image': todoList,
         'imageAlt': 'Screenshot of Todo List application.',
         'title': 'Todo List'
     },
