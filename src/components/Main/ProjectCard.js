@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
-    const { image, imageAlt } = project;
+    const { details, image, imageAlt, live, source, title } = project;
 
     return (
         <section className='project_card'>
