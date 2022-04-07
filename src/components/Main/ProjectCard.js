@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Main/ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
     const { details, image, imageAlt, live, source, title } = project;
