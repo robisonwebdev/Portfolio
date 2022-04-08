@@ -12,7 +12,8 @@ export const projectInformation = [
         'details': 'My objective for creating a Shopping Cart with react was to learn how to use Router. Router allowed me move from creating single page applications, to multiple page applications. With Router I was able to setup a navigation using HashRouter, Switch, Route, and Link.',
         'image': shoppingCart,
         'imageAlt': 'Shopping cart app.',
-        'title': 'Shopping Cart App'
+        'title': 'Shopping Cart App',
+        'id': 1
     },
     {
         'live': 'https://robisonwebdev.github.io/calculator-react/',
@@ -20,7 +21,8 @@ export const projectInformation = [
         'details': 'Calculator application created using React.',
         'image': calculator,
         'imageAlt': 'Screenshot of Calculator application.',
-        'title': 'Calculator App'
+        'title': 'Calculator App',
+        'id': 2
     },
     {
         'live': 'https://robisonwebdev.github.io/tic-tac-toe-react/',
@@ -28,7 +30,8 @@ export const projectInformation = [
         'details': 'Tic-Tac-Toe game created in React.js. Currently only playable between two users.',
         'image': ticTacToe,
         'imageAlt': 'Screenshot of Tic-Tac-Toe game.',
-        'title': 'Tic-Tac-Toe'
+        'title': 'Tic-Tac-Toe',
+        'id': 3
     },
     {
         'live': 'https://robisonwebdev.github.io/todo-react/',
@@ -36,7 +39,8 @@ export const projectInformation = [
         'details': 'Todo List a task management application created in React.js. ',
         'image': todoList,
         'imageAlt': 'Screenshot of Todo List application.',
-        'title': 'Todo List'
+        'title': 'Todo List',
+        'id': 4
     },
     {
         'live': 'https://robisonwebdev.github.io/cv-application/',
@@ -44,7 +48,8 @@ export const projectInformation = [
         'details': 'Basic CV application created in React.js, allowing user to create a simple resume.',
         'image': cvBuilder,
         'imageAlt': 'Screenshot of CV application.',
-        'title': 'CV Builder'
+        'title': 'CV Builder',
+        'id': 5
     },
     {
         'live': 'https://robisonwebdev.github.io/lotr-api-project/',
@@ -52,6 +57,9 @@ export const projectInformation = [
         'details': 'Quote generator using react and Lord of the Rings api.',
         'image': lotrQuote,
         'imageAlt': 'Screenshot of Lord of the Rings quote generator.',
-        'title': 'Lord of the Rings Quote Generator'
+        'title': 'Lord of the Rings Quote Generator',
+        'id': 6
     }
 ];
+
+export default projectInformation;
