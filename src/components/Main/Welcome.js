@@ -1,4 +1,5 @@
 import React from 'react';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import '../../styles/Main/Welcome.css';
 
 const Welcome = () => {
@@ -8,7 +9,10 @@ const Welcome = () => {
                 <h1>Welcome, I'm <span>David Robison</span>.</h1>
                 <h1>I'm a front-end web developer.</h1>
             </div>
-            <a href='#about'>More Information <i className='las la-chevron-down' /></a>
+            <a href='#about'>
+                More Information
+                <KeyboardArrowDownIcon />
+            </a>
         </section>
     );
 };
