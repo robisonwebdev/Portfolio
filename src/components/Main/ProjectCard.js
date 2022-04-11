@@ -18,6 +18,7 @@ const ProjectCard = ({ project }) => {
                 </div>
                 <div className='project_card_links'>
                     <a href={live} target='_blank' rel='noreferrer'>Live View</a>
+                    <span>|</span>
                     <a href={source} target='_blank' rel='noreferrer'>Source</a>
                 </div>
             </section>
