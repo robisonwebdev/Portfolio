@@ -26,14 +26,23 @@
 }
 
 .welcome a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
     background-color: var(--lighterBlack);
     border: 3px solid var(--lightBlack);
     color: var(--offWhite);
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: normal;
-    padding: 10px 8px;
+    padding: 5px 8px;
     text-decoration: none;
+}
+
+.welcome a svg {
+    font-size: 2rem;
 }
 
 .welcome a:hover {
