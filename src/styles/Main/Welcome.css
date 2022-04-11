@@ -21,7 +21,7 @@
 }
 
 .welcome_message h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -43,3 +43,9 @@
 .la-chevron-down {
     color: var(--teal);
 }
+
+@media only screen and (min-width: 800px) {
+    .welcome_message h1 {
+        font-size: 2rem;
+    }
+  }
