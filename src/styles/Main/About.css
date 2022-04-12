@@ -36,10 +36,12 @@
     justify-content: center;
     gap: 55px;
 
+    color: var(--offWhite);
     width: 100%;
 }
 
 .about_me img {
+    color: var(--teal);
     width: 175px;
 }
 
