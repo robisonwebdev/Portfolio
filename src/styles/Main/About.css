@@ -1,13 +1,11 @@
 .about {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 75px;
 
     background-color: var(--lighterBlack);
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 50px 30px;
     height: auto;
     min-height: 100vh;
     width: 100%;
@@ -27,7 +25,8 @@
     justify-content: center;
     gap: 55px;
 
-    width: 65%;
+    padding: 0 30px;
+    width: 100%;
 }
 
 .about_me {
@@ -59,25 +58,21 @@
 
 /* Media Querys */
 @media screen and (min-width: 800px) {
-    .about {
-        padding-bottom: 0;
-    }
-
     .about_information {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-    
-        padding-bottom: 30px;
-        width: 100%;
     }
 
     .about_me {
-        width: 30%;
+        width: 40%;
     }
 
-    .skills {        
-        width: 400px;
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: auto;
     }
 }
