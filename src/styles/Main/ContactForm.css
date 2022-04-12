@@ -11,6 +11,7 @@
 }
 
 .form_message {
+    font-size: 1.2rem;
     text-align: center;
     width: 75%;
 }
@@ -83,4 +84,10 @@
 
 .contact_form button:hover {
     border-bottom-color: var(--teal);
+}
+
+@media only screen and (min-width: 500px) {
+    .form_message {
+        font-size: 1.3rem;
+    }
 }
