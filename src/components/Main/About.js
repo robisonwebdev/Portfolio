@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillCard from './SkillCard';
-import avatar from '../../pictures/beard.png';
+import avatar from '../../pictures/beard2.png';
 import '../../styles/Main/About.css';
 
 const About = () => {
