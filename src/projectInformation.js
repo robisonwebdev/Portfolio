@@ -57,7 +57,7 @@ export const projectInformation = [
         'details': 'Quote generator using react and Lord of the Rings api.',
         'image': lotrQuote,
         'imageAlt': 'Screenshot of Lord of the Rings quote generator.',
-        'title': 'Lord of the Rings Quote Generator',
+        'title': 'Quote Generator',
         'id': 6
     }
 ];
