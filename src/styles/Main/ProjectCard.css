@@ -33,7 +33,8 @@
     justify-content: space-around;
     gap: 15px;
 
-    background-color: #fff;
+    background-color: var(--lightBlack);
+    color: var(--offWhite);
     padding: 10px;
     text-align: center;
     height: 100%;
@@ -41,7 +42,8 @@
 }
 
 .project_card_title {
-    color: var(--lightBlack);
+    border-bottom: 2px solid var(--teal);
+    color: var(--teal);
     font-size: 1.2rem;
 }
 
@@ -55,7 +57,7 @@
 }
 
 .project_card_links a {
-    color: var(--lightBlack);
+    color: var(--offWhite);
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
