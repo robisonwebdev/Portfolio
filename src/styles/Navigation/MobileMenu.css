@@ -11,5 +11,6 @@
     justify-content: center;
 
     list-style: none;
+    text-transform: uppercase;
     width: 100%;
 }
