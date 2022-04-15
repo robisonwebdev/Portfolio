@@ -16,31 +16,22 @@ export const projectInformation = [
         'id': 1
     },
     {
-        'live': 'https://robisonwebdev.github.io/calculator-react/',
-        'source': 'https://github.com/robisonwebdev/calculator-react',
-        'details': 'Calculator application created using React.',
-        'image': calculator,
-        'imageAlt': 'Screenshot of Calculator application.',
-        'title': 'Calculator App',
-        'id': 2
-    },
-    {
-        'live': 'https://robisonwebdev.github.io/tic-tac-toe-react/',
-        'source': 'https://github.com/robisonwebdev/tic-tac-toe-react',
-        'details': 'Tic-Tac-Toe game created in React.js. Currently only playable between two users.',
-        'image': ticTacToe,
-        'imageAlt': 'Screenshot of Tic-Tac-Toe game.',
-        'title': 'Tic-Tac-Toe',
-        'id': 3
-    },
-    {
         'live': 'https://robisonwebdev.github.io/todo-react/',
         'source': 'https://github.com/robisonwebdev/todo-react',
         'details': 'Todo List a task management application created in React.js. ',
         'image': todoList,
         'imageAlt': 'Screenshot of Todo List application.',
         'title': 'Todo List',
-        'id': 4
+        'id': 2
+    },
+    {
+        'live': 'https://robisonwebdev.github.io/calculator-react/',
+        'source': 'https://github.com/robisonwebdev/calculator-react',
+        'details': 'Calculator application created using React.',
+        'image': calculator,
+        'imageAlt': 'Screenshot of Calculator application.',
+        'title': 'Calculator App',
+        'id': 3
     },
     {
         'live': 'https://robisonwebdev.github.io/cv-application/',
@@ -49,7 +40,7 @@ export const projectInformation = [
         'image': cvBuilder,
         'imageAlt': 'Screenshot of CV application.',
         'title': 'CV Builder',
-        'id': 5
+        'id': 4
     },
     {
         'live': 'https://robisonwebdev.github.io/lotr-api-project/',
@@ -58,8 +49,17 @@ export const projectInformation = [
         'image': lotrQuote,
         'imageAlt': 'Screenshot of Lord of the Rings quote generator.',
         'title': 'Quote Generator',
+        'id': 5
+    },
+    {
+        'live': 'https://robisonwebdev.github.io/tic-tac-toe-react/',
+        'source': 'https://github.com/robisonwebdev/tic-tac-toe-react',
+        'details': 'Tic-Tac-Toe game created in React.js. Currently only playable between two users.',
+        'image': ticTacToe,
+        'imageAlt': 'Screenshot of Tic-Tac-Toe game.',
+        'title': 'Tic-Tac-Toe',
         'id': 6
-    }
+    }    
 ];
 
 export default projectInformation;
