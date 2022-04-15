@@ -67,6 +67,8 @@
     align-items: center;
     gap: 10px;
     
+    color: var(--offWhite);
+    font-size: 1.2rem;
     text-align: center;
     height: 100%;
     width: 75%;
