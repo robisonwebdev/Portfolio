@@ -48,7 +48,6 @@
 }
 
 .project_card_title {
-    border-bottom: 2px solid var(--teal);
     color: var(--teal);
     font-size: 1.2rem;
 }
