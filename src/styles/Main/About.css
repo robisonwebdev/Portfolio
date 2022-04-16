@@ -40,7 +40,7 @@
     width: 100%;
 }
 
-.about article {
+.about_me article {
     display: flex;
     flex-direction: column;
     align-items: center;
