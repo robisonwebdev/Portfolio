@@ -8,10 +8,13 @@ const About = () => {
         <section className='about' id='about'>
             <h1>About</h1>
             <section className='about_information'>
-                <article className='about_me'>
+                <section className='about_me'>
                     <img src={avatar} alt='Beaded avater' />
-                    <p>Ut odio velit, feugiat vitae rhoncus in, tincidunt eu arcu. Nulla ac elementum nunc. Integer laoreet in turpis ac mattis. Integer sodales sapien eu dictum ullamcorper. Nam varius non est non posuere. Mauris non porta mauris. Praesent finibus sagittis suscipit. Proin eget lobortis tellus. Ut eleifend odio eget venenatis suscipit. Suspendisse consequat ullamcorper metus nec lobortis. Morbi a leo efficitur orci lobortis luctus nec ac neque. Cras vel elementum nisl. Vivamus lacinia sit amet libero a cursus. Curabitur aliquet nisi nunc, vel tristique nulla ultricies eget. Cras varius enim lacus, sed tempor libero ornare ac.</p>
-                </article>
+                    <article>
+                        <p>Hello, I’m David Robison and I’m a self-taught front-end web developer. I currently reside in the small town of Parowan located in southern Utah.</p>
+                        <p>I started my self-learning of web development in January 2021, with the goals of coding everyday and learning HTML, CSS, JavaScript, and React. Coding everyday has been a great way to keep me on track and  as of writing this I have met all my goals and haven’t missed a day of coding in 460 days.</p>
+                    </article>
+                </section>
                 <section className='skills'>
                     <SkillCard icon='lab la-react' name='ReactJS' />
                     <SkillCard icon='lab la-js-square' name='JavaScript' />                    
