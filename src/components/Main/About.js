@@ -11,8 +11,9 @@ const About = () => {
                 <section className='about_me'>
                     <img src={avatar} alt='Beaded avater' />
                     <article>
-                        <p>Hello, I’m David Robison and I’m a self-taught front-end web developer. I currently reside in the small town of Parowan located in southern Utah.</p>
-                        <p>I started my self-learning of web development in January 2021, with the goals of coding everyday and learning HTML, CSS, JavaScript, and React. Coding everyday has been a great way to keep me on track and  as of writing this I have met all my goals and haven’t missed a day of coding in 460 days.</p>
+                        <p>Hello and thank you for visiting my website. I’m David Robison and I’m a self-taught web developer. I currently reside in southern Utah.</p>
+                        <p>I started my journey into learning web development in January 2021 with the intent of starting a new career. I’ve learned HTML, CSS, JavaScript, Git, GitHub, and ReactJS along the way. To keep myself accountable to being fully committed, I found coding and learning everyday worked for me. As of writing this I’ve not missed a single day in over 460 days.</p>
+                        <p>Where to go from here? I’ll continue coding everyday and work my way towards learning a style sheet language and backend web development. Thank you for taking the time to view my portfolio!</p>
                     </article>
                 </section>
                 <section className='skills'>
