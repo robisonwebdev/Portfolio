@@ -1,25 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.52a40591.chunk.css",
-    "main.js": "/static/js/main.a5db4bc8.chunk.js",
-    "main.js.map": "/static/js/main.a5db4bc8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.bc3d5af9.chunk.js": "/static/js/2.bc3d5af9.chunk.js",
-    "static/js/2.bc3d5af9.chunk.js.map": "/static/js/2.bc3d5af9.chunk.js.map",
+    "main.css": "/static/css/main.4c91e3c8.css",
+    "main.js": "/static/js/main.55c013ad.js",
+    "static/media/lotrQuote.png": "/static/media/lotrQuote.4244ba970406c9387309.png",
+    "static/media/cvBuilder.png": "/static/media/cvBuilder.212ce57a5e0ba3743e48.png",
+    "static/media/todoList.png": "/static/media/todoList.09ace5a1344056664d99.png",
+    "static/media/shoppingCart.png": "/static/media/shoppingCart.50d2ca3a5a75a0800780.png",
+    "static/media/ticTacToe.png": "/static/media/ticTacToe.15980047e5c190901a3d.png",
+    "static/media/calculator.png": "/static/media/calculator.4876707541666830a272.png",
+    "static/media/beard2.png": "/static/media/beard2.17eaea6f425cd02823de.png",
     "index.html": "/index.html",
-    "static/css/main.52a40591.chunk.css.map": "/static/css/main.52a40591.chunk.css.map",
-    "static/js/2.bc3d5af9.chunk.js.LICENSE.txt": "/static/js/2.bc3d5af9.chunk.js.LICENSE.txt",
-    "static/media/memoryCardGame.1599b504.png": "/static/media/memoryCardGame.1599b504.png",
-    "static/media/myPhoto.3897509a.jpeg": "/static/media/myPhoto.3897509a.jpeg",
-    "static/media/restaurantPage.ac2c6bf9.png": "/static/media/restaurantPage.ac2c6bf9.png",
-    "static/media/shoppingCart.b0dd367b.png": "/static/media/shoppingCart.b0dd367b.png",
-    "static/media/todoApp.78f758d3.png": "/static/media/todoApp.78f758d3.png"
+    "main.4c91e3c8.css.map": "/static/css/main.4c91e3c8.css.map",
+    "main.55c013ad.js.map": "/static/js/main.55c013ad.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.bc3d5af9.chunk.js",
-    "static/css/main.52a40591.chunk.css",
-    "static/js/main.a5db4bc8.chunk.js"
+    "static/css/main.4c91e3c8.css",
+    "static/js/main.55c013ad.js"
   ]
 }
