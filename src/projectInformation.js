@@ -1,11 +1,20 @@
 import calculator from './pictures/calculator.png';
 import cvBuilder from './pictures/cvBuilder.png';
-import lotrQuote from './pictures/lotrQuote.png';
 import shoppingCart from './pictures/shoppingCart.png';
-import ticTacToe from './pictures/ticTacToe.png'
+import ticTacToe from './pictures/ticTacToe.png';
+import tmdbClone from './pictures/tmdbClone.png';
 import todoList from './pictures/todoList.png';
 
 export const projectInformation = [
+    {
+        'live': 'https://robisonwebdev.github.io/movie-db/',
+        'source': 'https://github.com/robisonwebdev/movie-db',
+        'details': 'Clone of The Movie DB (TMDB) website.',
+        'image': tmdbClone,
+        'imageAlt': 'Screenshot of the clone TMDB website.',
+        'title': 'TMDB Clone Project',
+        'id': 1
+    },
     {
         'live': 'https://robisonwebdev.github.io/shopping-cart/',
         'source': 'https://github.com/robisonwebdev/shopping-cart',
@@ -13,7 +22,7 @@ export const projectInformation = [
         'image': shoppingCart,
         'imageAlt': 'Shopping cart app.',
         'title': 'Shopping Cart App',
-        'id': 1
+        'id': 2
     },
     {
         'live': 'https://robisonwebdev.github.io/todo-react/',
@@ -22,7 +31,7 @@ export const projectInformation = [
         'image': todoList,
         'imageAlt': 'Screenshot of Todo List application.',
         'title': 'Todo List',
-        'id': 2
+        'id': 3
     },
     {
         'live': 'https://robisonwebdev.github.io/calculator-react/',
@@ -31,7 +40,7 @@ export const projectInformation = [
         'image': calculator,
         'imageAlt': 'Screenshot of Calculator application.',
         'title': 'Calculator App',
-        'id': 3
+        'id': 4
     },
     {
         'live': 'https://robisonwebdev.github.io/cv-application/',
@@ -40,15 +49,6 @@ export const projectInformation = [
         'image': cvBuilder,
         'imageAlt': 'Screenshot of CV application.',
         'title': 'CV Builder',
-        'id': 4
-    },
-    {
-        'live': 'https://robisonwebdev.github.io/lotr-api-project/',
-        'source': 'https://github.com/robisonwebdev/lotr-api-project',
-        'details': 'Quote generator using ReactJS and Lord of the Rings api.',
-        'image': lotrQuote,
-        'imageAlt': 'Screenshot of Lord of the Rings quote generator.',
-        'title': 'Quote Generator',
         'id': 5
     },
     {
