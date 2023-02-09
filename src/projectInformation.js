@@ -18,7 +18,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/shopping-cart/',
         'source': 'https://github.com/robisonwebdev/shopping-cart',
-        'details': 'A mockup of an online store built using ReactJS.',
+        'details': 'A mockup of an online store built with ReactJS, featuring a shopping cart and a limited checkout process.',
         'image': shoppingCart,
         'imageAlt': 'Shopping cart app.',
         'title': 'Shopping Cart App',
