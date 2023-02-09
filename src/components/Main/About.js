@@ -11,9 +11,10 @@ const About = () => {
                 <section className='about_me'>
                     <img src={avatar} alt='Beaded avater' />
                     <article>
-                        <p>Hello and thank you for visiting my website. I’m David Robison and I’m a self-taught web developer. I currently reside in southern Utah.</p>
-                        <p>I started my journey into learning web development in January 2021 with the intent of starting a new career. I’ve learned HTML, CSS, JavaScript, Git, GitHub, and ReactJS along the way. To keep myself accountable to being fully committed, I found coding and learning everyday worked for me. As of writing this I’ve not missed a single day in over 460 days.</p>
-                        <p>Where to go from here? I’ll continue coding everyday and work my way towards learning a style sheet language and backend web development. Thank you for taking the time to view my portfolio!</p>
+                        <p>As a self-taught web developer, I am constantly pushing myself to learn, grow, and create impactful solutions for the web. My name is David Robison and I am based in southern Utah.</p>
+                        <p>I launched my journey into web development in 2021 with a goal to make a career switch. Armed with a strong work ethic and a passion for coding, I taught myself HTML, CSS, JavaScript, Git, GitHub, and ReactJS. My dedication to continuous improvement is unwavering, as evidenced by my commitment to coding every day, which I achieved 687 consecutive days.</p>
+                        <p>My ultimate goal is to become a well-rounded web developer, with expertise in both front-end and back-end development. I am eager to learn a styling language and delve deeper into the intricacies of backend development.</p>
+                        <p>Take a look at my portfolio and you will see a glimpse of my journey and my passion for web development. Thank you for visiting, and I hope you enjoy exploring my projects!</p>
                     </article>
                 </section>
                 <section className='skills'>
