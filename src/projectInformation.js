@@ -36,7 +36,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/calculator-react/',
         'source': 'https://github.com/robisonwebdev/calculator-react',
-        'details': 'Calculator application created using React.',
+        'details': 'A simple and easy-to-use calculator app built with ReactJS, providing basic mathematical operations for everyday use.',
         'image': calculator,
         'imageAlt': 'Screenshot of Calculator application.',
         'title': 'Calculator App',
