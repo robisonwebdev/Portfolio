@@ -54,7 +54,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/tic-tac-toe-react/',
         'source': 'https://github.com/robisonwebdev/tic-tac-toe-react',
-        'details': 'Tic-Tac-Toe game created in ReactJS, playable between two users.',
+        'details': 'A classic Tic-Tac-Toe game built with ReactJS, providing a fun and interactive experience for players.',
         'image': ticTacToe,
         'imageAlt': 'Screenshot of Tic-Tac-Toe game.',
         'title': 'Tic-Tac-Toe',
