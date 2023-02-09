@@ -9,7 +9,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/movie-db/',
         'source': 'https://github.com/robisonwebdev/movie-db',
-        'details': 'Clone of The Movie DB (TMDB) website.',
+        'details': 'A dynamic movie database website built with ReactJS, offering an intuitive interface for browsing and discovering movies, TV shows, and actors.',
         'image': tmdbClone,
         'imageAlt': 'Screenshot of the clone TMDB website.',
         'title': 'TMDB Clone Project',
