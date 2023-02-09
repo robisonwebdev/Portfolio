@@ -27,7 +27,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/todo-react/',
         'source': 'https://github.com/robisonwebdev/todo-react',
-        'details': 'Todo List is a task management application created in React.js. ',
+        'details': 'A simple and intuitive to-do list app built with ReactJS, allowing users to manage their tasks and prioritize their day.',
         'image': todoList,
         'imageAlt': 'Screenshot of Todo List application.',
         'title': 'Todo List',
