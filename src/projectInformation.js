@@ -45,7 +45,7 @@ export const projectInformation = [
     {
         'live': 'https://robisonwebdev.github.io/cv-application/',
         'source': 'https://github.com/robisonwebdev/cv-application',
-        'details': 'Basic CV application created in ReactJS, allowing user to create a simple resume.',
+        'details': 'A simple and straightforward CV app built with ReactJS, allowing users to create and view their professional profiles.',
         'image': cvBuilder,
         'imageAlt': 'Screenshot of CV application.',
         'title': 'CV Builder',
